@@ -2,6 +2,23 @@ const featuresHead = document.querySelector('.features-head')
 const featuresPara = document.querySelector('.features-para')
 const featuresImage = document.querySelector('.features-image')
 
+const hamburger = document.querySelector(".hamburger");
+const list = document.querySelectorAll(".overlay-nav li");
+const navLinks = document.querySelector(".nav-overlay");
+
+hamburger.addEventListener("click", () => {
+  const navLinks = document.querySelector(".nav-overlay");
+  navLinks.classList.toggle("nav-active");
+  hamburger.classList.toggle("hamburger-active");
+});
+
+list.forEach((li) => {
+  li.addEventListener("click", () => {
+    navLinks.classList.toggle("nav-active");
+    hamburger.classList.toggle("hamburger-active");
+  });
+});
+
 function tab1() {
     featuresHead.innerText = "Enjoy stability"
     featuresPara.innerText = "We release stable updates every month keeping your device up to date with latest security patches."
