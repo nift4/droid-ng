@@ -64,7 +64,7 @@ body {
 .loader h1 .ng {
   -webkit-transform: translateY(100px);
           transform: translateY(100px);
-  color: #ff9330;
+  color: #E7514B;
 }
 
 @-webkit-keyframes loader-svg {
@@ -88,7 +88,7 @@ body {
 .hamburger {
   width: 3vw;
   height: 3vw;
-  background: #ff9330;
+  background: #E7514B;
   position: fixed;
   top: 3vw;
   right: 5vw;
@@ -150,7 +150,7 @@ body {
   right: 0vh;
   height: 100%;
   width: 13%;
-  background: #ff9330;
+  background: #E7514B;
 }
 
 .nav-overlay .overlay-left,
@@ -224,7 +224,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background: #ff9330;
+  background: #E7514B;
   border-radius: 8px;
   border: none;
   font-size: 18px;
@@ -252,11 +252,12 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  font-weight: bold;
 }
 
 .nav-overlay .overlay-left .overlay-maintainer button {
   padding: 0.6rem 2vw;
-  background: #ff9330;
+  background: #E7514B;
   border-radius: 8px;
   border: none;
   font-size: 18px;
@@ -289,11 +290,12 @@ body {
   margin: 2vw 0vh !important;
   position: relative;
   overflow: hidden;
+  font-weight: bold;
 }
 
 .nav-overlay .overlay-nav li::after {
   content: "";
-  background: #ff9330;
+  background: #E7514B;
   position: absolute;
   bottom: 0vh;
   left: 0vh;
@@ -357,7 +359,7 @@ body {
 }
 
 .home .text .colored {
-  color: #ff9330;
+  color: #E7514B;
 }
 
 .home .text h1 {
@@ -419,7 +421,7 @@ body {
 
 .features .features-list li::after {
   content: "";
-  background: #ff9330;
+  background: #E7514B;
   position: absolute;
   bottom: 0vh;
   left: 0vh;
@@ -478,7 +480,7 @@ body {
 }
 
 .features .features-content .features-text .colored {
-  color: #ff9330;
+  color: #E7514B;
 }
 
 .features .features-content .features-text h1 {
@@ -665,8 +667,16 @@ body {
   .home .text, .home .img {
     width: 90%;
   }
+  .home .text h1 {
+    font-size: 3rem;
+  }
+  .home .text p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
   .features .features-list {
     padding: 0;
+    width: 80%;
   }
   .features .features-list li {
     width: 33%;
@@ -697,13 +707,18 @@ body {
   }
   .features .features-content .features-text .features-head {
     font-size: 2.5rem;
+    margin: 0rem;
   }
   .features .features-content .features-text .features-para {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     line-height: 2rem;
   }
   .team .wrapper {
-    width: 70%;
+    width: 100%;
+  }
+  .team .wrapper h1 {
+    font-size: 2.4rem;
+    padding: 0rem 1rem;
   }
   .team .container .card {
     border-radius: 0.5rem;
