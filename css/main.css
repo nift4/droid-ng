@@ -41,8 +41,8 @@ body {
 
 .loader svg {
   width: 40%;
-  -webkit-animation: loader-svg 3s ease;
-          animation: loader-svg 3s ease;
+  -webkit-animation: loader-svg 1s ease;
+          animation: loader-svg 1s ease;
 }
 
 .loader h1 {
@@ -64,7 +64,7 @@ body {
 .loader h1 .ng {
   -webkit-transform: translateY(100px);
           transform: translateY(100px);
-  color: #E7514B;
+  color: #e7514b;
 }
 
 @-webkit-keyframes loader-svg {
@@ -88,7 +88,7 @@ body {
 .hamburger {
   width: 3vw;
   height: 3vw;
-  background: #E7514B;
+  background: #e7514b;
   position: fixed;
   top: 3vw;
   right: 5vw;
@@ -133,6 +133,7 @@ body {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   width: 100%;
+  height: 100vh;
   background: #e1e1e1;
   position: fixed;
   top: 0vh;
@@ -150,7 +151,7 @@ body {
   right: 0vh;
   height: 100%;
   width: 13%;
-  background: #E7514B;
+  background: #e7514b;
 }
 
 .nav-overlay .overlay-left,
@@ -224,7 +225,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background: #E7514B;
+  background: #e7514b;
   border-radius: 8px;
   border: none;
   font-size: 18px;
@@ -257,7 +258,7 @@ body {
 
 .nav-overlay .overlay-left .overlay-maintainer button {
   padding: 0.6rem 2vw;
-  background: #E7514B;
+  background: #e7514b;
   border-radius: 8px;
   border: none;
   font-size: 18px;
@@ -295,7 +296,7 @@ body {
 
 .nav-overlay .overlay-nav li::after {
   content: "";
-  background: #E7514B;
+  background: #e7514b;
   position: absolute;
   bottom: 0vh;
   left: 0vh;
@@ -359,17 +360,17 @@ body {
 }
 
 .home .text .colored {
-  color: #E7514B;
+  color: #e7514b;
 }
 
 .home .text h1 {
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: bolder;
 }
 
 .home .text p {
-  font-size: 1.8rem;
-  line-height: 3rem;
+  font-size: 2.5rem;
+  line-height: 4rem;
 }
 
 .home .img img {
@@ -421,7 +422,7 @@ body {
 
 .features .features-list li::after {
   content: "";
-  background: #E7514B;
+  background: #e7514b;
   position: absolute;
   bottom: 0vh;
   left: 0vh;
@@ -480,11 +481,11 @@ body {
 }
 
 .features .features-content .features-text .colored {
-  color: #E7514B;
+  color: #e7514b;
 }
 
 .features .features-content .features-text h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   line-height: 5rem;
   font-weight: bolder;
   -webkit-transition: all 0.4s ease;
@@ -492,7 +493,8 @@ body {
 }
 
 .features .features-content .features-text h3 {
-  font-size: 1.4rem;
+  font-size: 2rem;
+  line-height: 3.5rem;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   font-weight: lighter;
@@ -577,6 +579,124 @@ body {
 .team .container .card .card-text {
   width: 70%;
   color: #333333 !important;
+}
+
+footer {
+  width: 100%;
+  background: #e7514b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+}
+
+footer h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+footer .footer-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 80%;
+}
+
+footer .footer-content .footer-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  font-weight: bold;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  min-height: 20vh;
+  font-size: 1.5rem;
+  list-style: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .footer-content .footer-redirects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  font-weight: bold;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  min-height: 20vh;
+  font-size: 1.5rem;
+  list-style: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media only screen and (max-width: 1080px) {
+  .nav-overlay {
+    height: auto;
+  }
+  .nav-overlay .overlay-left .overlay-about h1 {
+    font-size: 2.3rem;
+  }
+  .nav-overlay .overlay-left .overlay-about .overlay-buttons a {
+    padding: 0.6rem 0.5rem;
+  }
+  .nav-overlay .overlay-left .overlay-maintainer h1 {
+    font-size: 2rem;
+  }
+  .bg {
+    width: 30%;
+    top: -25vh;
+    right: 0vh;
+  }
+  .home .text h1 {
+    font-size: 3rem;
+  }
+  .home .text p {
+    font-size: 1.8rem;
+    line-height: 3rem;
+  }
+  .features .features-content .features-text {
+    padding: 0rem;
+  }
+  .features .features-content .features-text h1 {
+    font-size: 3rem;
+  }
+  .features .features-content .features-text h3 {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+  }
+  .team .wrapper {
+    margin: 0;
+  }
+  footer .footer-content .footer-links,
+  footer .footer-content .footer-redirects {
+    min-height: 10vh;
+  }
 }
 
 @media only screen and (max-width: 700px) {
@@ -664,7 +784,8 @@ body {
     padding: 2vh 0vh;
     margin: 4vh 0vh;
   }
-  .home .text, .home .img {
+  .home .text,
+  .home .img {
     width: 90%;
   }
   .home .text h1 {
@@ -699,7 +820,8 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .features .features-content .features-text, .features .features-content .features-img {
+  .features .features-content .features-text,
+  .features .features-content .features-img {
     width: 90%;
   }
   .features .features-content .features-text {
