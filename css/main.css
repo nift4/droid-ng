@@ -405,7 +405,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   list-style: none;
-  font-size: 4vw;
+  font-size: 1.3rem;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -704,7 +704,7 @@ footer .footer-content .footer-redirects {
     width: 85%;
   }
   .loader h1 {
-    font-size: 3rem;
+    font-size: 15vw;
   }
   .hamburger {
     width: 40px;
@@ -801,7 +801,7 @@ footer .footer-content .footer-redirects {
   }
   .features .features-list li {
     width: 33%;
-    font-size: 1rem;
+    font-size: 4vw;
     line-height: 3rem;
     font-weight: lighter;
     -webkit-transition: all 0.4s ease;
