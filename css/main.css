@@ -405,7 +405,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   list-style: none;
-  font-size: 1.3rem;
+  font-size: 4vw;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
