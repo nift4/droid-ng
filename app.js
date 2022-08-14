@@ -23,35 +23,35 @@ function tab1() {
   featuresHead.innerText = "Enjoy stability";
   featuresPara.innerText =
     "We know how to code, not only how to cherry-pick - which is why our ROM is quite stable. :)";
-  featuresImage.src = "./images/img4 1.png";
+  featuresImage.src = "./images/stability.png";
 }
 
 function tab2() {
   featuresHead.innerText = "Open source";
   featuresPara.innerText =
-    "Unlike many Android ROMs, we do not only share our source - we actively give back. We provide mods like OpenWellbeing decoupled of our ROM and help our friends debug issues, even if they belong to another ROM.";
-  featuresImage.src = "./images/img4 1.png";
+    "Unlike many Android ROMs, we do not only share our source - we actively give back. We provide mods like Neo Wellbeing decoupled of our ROM, fix upstream LineageOS bugs and help our friends debug issues, even if they belong to another ROM.";
+  featuresImage.src = "./images/opensource.png";
 }
 
 function tab3() {
   featuresHead.innerText = "Our UI";
   featuresPara.innerText =
     "Because we're tired of ROMs all looking the same or being gore - we have another unique option for you!";
-  featuresImage.src = "./images/img4 1.png";
+  featuresImage.src = "./images/ui.png";
 }
 
 function tab4() {
   featuresHead.innerText = "Everyone welcome";
   featuresPara.innerText =
     "Everyone is welcome to just use this ROM or get actively involved! You can translate, design, build, code or just spread the word!";
-  featuresImage.src = "./images/img4 1.png";
+  featuresImage.src = "./images/contribute.png";
 }
 
 function tab5() {
   featuresHead.innerText = "Healthy community";
   featuresPara.innerText =
     "We are not another toxic gaming ROM community - we do help unofficial maintainers and answer all users' questions.";
-  featuresImage.src = "./images/img4 1.png";
+  featuresImage.src = "./images/community.png";
 }
 
 gsap.to(".droid", { y: 0, duration: 1 });
